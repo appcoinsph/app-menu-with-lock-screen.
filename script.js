@@ -346,11 +346,11 @@ const Restaurants = () => {
 const Movies = () => {
     const getMovies = () => {
         return [{
-                desc: "Best results Are Our Priority. Prepare For Your Future Well With Us",
+                desc: "Prepare For Your Future Well With Us",
                 id: 1,
                 icon: "fa-solid fa-starship-freighter",
                 image: "https://img.apkfab.com/v2/img/9/6/c/96c1e6a09d1c70f48baf2769891e2227.png",
-                title: "Recent logo"
+                title: "Best results Are Our Priority. "
             }].map((movie) => {
             const styles = {
                 backgroundImage: `url(${movie.image})`
@@ -365,7 +365,7 @@ const Movies = () => {
                     React.createElement("i", { className: movie.icon }))));
         });
     };
-    return (React.createElement(MenuSection, { icon: "fa-solid fa-camera-movie", id: "movies-section", scrollable: true, title: "Official logo" }, getMovies()));
+    return (React.createElement(MenuSection, { icon: "fa-solid fa-camera-movie", id: "movies-section", scrollable: true, title: "Official logo & tagline" }, getMovies()));
 };
 const UserStatusButton = (props) => {
     const { userStatus, setUserStatusTo } = React.useContext(AppContext);
