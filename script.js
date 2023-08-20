@@ -234,37 +234,37 @@ const Weather = () => {
                 id: 1,
                 name: "Mon",
                 temperature: N.rand(60, 80),
-                weather: WeatherType.Sunny
+                weather: WeatherType.rand
             }, {
                 id: 2,
                 name: "Tues",
                 temperature: N.rand(60, 80),
-                weather: WeatherType.Sunny
+                weather: WeatherType.rand
             }, {
                 id: 3,
                 name: "Wed",
                 temperature: N.rand(60, 80),
-                weather: WeatherType.Cloudy
+                weather: WeatherType.rand
             }, {
                 id: 4,
                 name: "Thurs",
                 temperature: N.rand(60, 80),
-                weather: WeatherType.Rainy
+                weather: WeatherType.rand
             }, {
                 id: 5,
                 name: "Fri",
                 temperature: N.rand(60, 80),
-                weather: WeatherType.Stormy
+                weather: WeatherType.rand
             }, {
                 id: 6,
                 name: "Sat",
                 temperature: N.rand(60, 80),
-                weather: WeatherType.Sunny
+                weather: WeatherType.rand
             }, {
                 id: 7,
                 name: "Sun",
                 temperature: N.rand(60, 80),
-                weather: WeatherType.Cloudy
+                weather: WeatherType.rand
             }].map((day) => {
             const getIcon = () => {
                 switch (day.weather) {
