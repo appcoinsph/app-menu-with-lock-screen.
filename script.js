@@ -349,7 +349,7 @@ const Movies = () => {
                 desc: "Best results Are Our Priority,Prepare For Your Future Well With Us",
                 id: 1,
                 icon: "fa-solid fa-coins",
-                image: "https://img.apkfab.com/v2/img/9/6/c/96c1e6a09d1c70f48baf2769891e2227.png?h=100&type=webp",
+                image: "https://img.apkfab.com/v2/img/9/6/c/96c1e6a09d1c70f48baf2769891e2227.png",
                 title: "Recent logo"
         }
             }].map((movie) => {
