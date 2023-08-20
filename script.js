@@ -345,15 +345,15 @@ const Restaurants = () => {
                 image: "https://rec-data.kalibrr.com/logos/XGUKQWF4P4D26WMF9RHSB6H26GUWD6JXPKGNG84V-5b2738be.png",
                 title: "QuadX"
             }, {
-                desc: "This 'Za be gettin down",
+                desc: "mission of helping solopreneurs and very small businesses.",
                 id: 3,
-                image: "https://images.unsplash.com/photo-1590947132387-155cc02f3212?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                title: "Pizza"
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhuU9zcbMWzSKYbbJ3BauySsELNuGG0H7Zx8LJ23G7UjfJN9I&s",
+                title: "Godaddy"
             }, {
-                desc: "BBQ ain't need no rhyme",
+                desc: "Your trusted online payment partner.",
                 id: 4,
-                image: "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YmFyYmVxdWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                title: "BBQ"
+                image: "https://www.paynamics.com/logos/paynamics_rgb.png",
+                title: "Paynamics"
             }].map((restaurant) => {
             const styles = {
                 backgroundImage: `url(${restaurant.image})`
