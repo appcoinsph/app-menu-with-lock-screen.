@@ -296,7 +296,8 @@ const Tools = () => {
                     React.createElement("i", { className: classNames(tool.icon, "tool-card-icon") }))));
         });
     };
-   
+     return (React.createElement(MenuSection, { icon: "fa-solid fa-toolbox", id: "tools-section", title: "Digital resources" }, getTools()));
+};   
 const Restaurants = () => {
     const getRestaurants = () => {
         return [{
