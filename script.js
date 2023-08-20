@@ -301,7 +301,7 @@ const Tools = () => {
                     React.createElement("i", { className: classNames(tool.icon, "tool-card-icon") }))));
         });
     };
-     return (React.createElement(MenuSection, { icon: "fa-solid fa-toolbox", id: "tools-section", title: "Digital resources" }, getTools()));
+     return (React.createElement(MenuSection, { icon: "fa-solid fa-toolbox", id: "tools-section", title: "You can earn, digital resources" }, getTools()));
 };   
 const Restaurants = () => {
     const getRestaurants = () => {
@@ -346,11 +346,11 @@ const Restaurants = () => {
 const Movies = () => {
     const getMovies = () => {
         return [{
-                desc: "A long drawn out story of some people fighting over some space. Cuz there isn't enough of it.",
+                desc: "Best results Are Our Priority. Prepare For Your Future Well With Us",
                 id: 1,
                 icon: "fa-solid fa-starship-freighter",
-                image: "https://images.unsplash.com/photo-1533613220915-609f661a6fe1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3RhciUyMHdhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                title: "Area Fights"
+                image: "https://img.apkfab.com/v2/img/9/6/c/96c1e6a09d1c70f48baf2769891e2227.png",
+                title: "Recent logo"
             }].map((movie) => {
             const styles = {
                 backgroundImage: `url(${movie.image})`
@@ -365,7 +365,7 @@ const Movies = () => {
                     React.createElement("i", { className: movie.icon }))));
         });
     };
-    return (React.createElement(MenuSection, { icon: "fa-solid fa-camera-movie", id: "movies-section", scrollable: true, title: "Popcorn time!" }, getMovies()));
+    return (React.createElement(MenuSection, { icon: "fa-solid fa-camera-movie", id: "movies-section", scrollable: true, title: "Official logo" }, getMovies()));
 };
 const UserStatusButton = (props) => {
     const { userStatus, setUserStatusTo } = React.useContext(AppContext);
