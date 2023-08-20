@@ -354,6 +354,11 @@ const Restaurants = () => {
                 id: 4,
                 image: "https://www.paynamics.com/logos/paynamics_rgb.png",
                 title: "Paynamics"
+        }, {
+                desc: "The best music choice",
+                id: 5,
+                image: "https://static.mytuner.mobi/media/tvos_radios/kZDeHWtfTU.png",
+                title: "Highlights radio"
             }].map((restaurant) => {
             const styles = {
                 backgroundImage: `url(${restaurant.image})`
