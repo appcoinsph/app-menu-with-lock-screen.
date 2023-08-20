@@ -340,10 +340,10 @@ const Restaurants = () => {
                 image: "https://www.google.com/images/branding/searchlogo/1x/googlelogo_tablet_tier1_hp_color_183x64dp.png",
                 title: "Google"
             }, {
-                desc: "The worst ice-cream around",
+                desc: "Leading the industry in E-commerce, logistics and software solutions. ",
                 id: 2,
-                image: "https://images.unsplash.com/photo-1576506295286-5cda18df43e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aWNlJTIwY3JlYW18ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
-                title: "Ice Cream"
+                image: "https://www.quadx.xyz/wp-content/uploads/2022/05/quadx-logo.png",
+                title: "QuadX"
             }, {
                 desc: "This 'Za be gettin down",
                 id: 3,
