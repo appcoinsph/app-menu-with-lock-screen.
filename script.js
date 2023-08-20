@@ -7,7 +7,10 @@ var UserStatus;
     UserStatus["LogInError"] = "Log In Error";
     UserStatus["VerifyingLogIn"] = "Verifying Log In";
 })(UserStatus || (UserStatus = {}));
-
+var Default;
+(function (Default) {
+    Default["PIN"] = "1234";
+})(Default || (Default = {}));
 var WeatherType;
 (function (WeatherType) {
     WeatherType["Cloudy"] = "Cloudy";
@@ -207,17 +210,7 @@ const MenuSection = (props) => {
 const QuickNav = () => {
     const getItems = () => {
         return [{
-                id: 1,
-                label: "Weather"
-            }, {
-                id: 2,
-                label: "Food"
-            }, {
-                id: 3,
-                label: "Apps"
-            }, {
-                id: 4,
-                label: "Movies"
+                
             }].map((item) => {
             return (React.createElement("div", { key: item.id, className: "quick-nav-item clear-button" },
                 React.createElement("span", { className: "quick-nav-item-label" }, item.label)));
