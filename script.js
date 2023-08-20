@@ -342,7 +342,7 @@ const Restaurants = () => {
             }, {
                 desc: "Leading the industry in E-commerce, logistics and software solutions. ",
                 id: 2,
-                image: "https://www.quadx.xyz/wp-content/uploads/2022/05/quadx-logo.png",
+                image: "https://rec-data.kalibrr.com/logos/XGUKQWF4P4D26WMF9RHSB6H26GUWD6JXPKGNG84V-5b2738be.png",
                 title: "QuadX"
             }, {
                 desc: "This 'Za be gettin down",
