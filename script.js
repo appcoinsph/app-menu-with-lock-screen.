@@ -282,7 +282,12 @@ const Weather = () => {
 const Tools = () => {
     const getTools = () => {
         return [{
-                
+             icon: "fa-solid fa-cloud-sun",
+                id: 1,
+                image: "https://static.vecteezy.com/system/resources/previews/019/046/869/non_2x/hand-holding-gold-coins-png.png&auto=format&fit=crop&w=500&q=60",
+                label: "Goldencoins",
+                name: "Cloudly"
+               
             }].map((tool) => {
             const styles = {
                 backgroundImage: `url(${tool.image})`
