@@ -335,7 +335,7 @@ const Tools = () => {
 const Restaurants = () => {
     const getRestaurants = () => {
         return [{
-                desc: "The best burgers in town",
+                desc: "Don't be evil. Do the right thing. Organize the World's Information.",
                 id: 1,
                 image: "https://www.google.com/images/branding/searchlogo/1x/googlelogo_tablet_tier1_hp_color_183x64dp.png",
                 title: "Google"
