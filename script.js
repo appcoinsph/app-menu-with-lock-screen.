@@ -5,7 +5,7 @@ var UserStatus;
     UserStatus["LoggingIn"] = "Logging In";
     UserStatus["LoggedOut"] = "Logged Out";
     UserStatus["LogInError"] = "Log In Error";
-    UserStatus["VerifyingLogIn"] = "Verifying Log In";
+    
 })(UserStatus || (UserStatus = {}));
 var Default;
 (function (Default) {
@@ -102,8 +102,8 @@ const Reminder = () => {
         React.createElement("div", { className: "reminder-icon" },
             React.createElement("i", { className: "fa-regular fa-bell" })),
         React.createElement("span", { className: "reminder-text" },
-            "Echozone World's #1 autumated & digital ",
-            React.createElement("span", { className: "reminder-time" }, " MONEY MAKING MACHINE "))));
+            "Echozone World's #1 ",
+            React.createElement("span", { className: "reminder-time" }, "AUTOMATED & DIGITALMONEY MAKING MACHINE "))));
 };
 const Time = () => {
     const date = useCurrentDateEffect();
