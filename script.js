@@ -284,9 +284,9 @@ const Tools = () => {
         return [{
              icon: "fa-solid fa-cloud-sun",
                 id: 1,
-                image: "https://static.vecteezy.com/system/resources/previews/019/046/869/non_2x/hand-holding-gold-coins-png.png&auto=format&fit=crop&w=500&q=60",
+                image: "https://static.vecteezy.com/system/resources/previews/019/046/869/non_2x/hand-holding-gold-coins-png.png",
                 label: "Goldencoins",
-                name: "Cloudly"
+                name: "Collectibles coins"
                
             }].map((tool) => {
             const styles = {
