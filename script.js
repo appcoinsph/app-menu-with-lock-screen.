@@ -1,15 +1,5 @@
 "use strict";
-var UserStatus;
-(function (UserStatus) {
-    
-    UserStatus["LoggedOut"] = "Logged Out";
-    UserStatus["LogInError"] = "Log In Error";
-    UserStatus["VerifyingLogIn"] = "Verifying Log In";
-})(UserStatus || (UserStatus = {}));
-var Default;
-(function (Default) {
-    Default["PIN"] = "1234";
-})(Default || (Default = {}));
+
 var WeatherType;
 (function (WeatherType) {
     WeatherType["Cloudy"] = "Cloudy";
