@@ -210,17 +210,7 @@ const MenuSection = (props) => {
 const QuickNav = () => {
     const getItems = () => {
         return [{
-              id: 1,
-                label: "lock"
-            }, {
-                id: 2,
-                label: "Add+"
-                  }, {
-                id: 3,
-                label: "Coming soon"
-            }, {
-                id: 4,
-                label: "Coming soon"  
+                
             }].map((item) => {
             return (React.createElement("div", { key: item.id, className: "quick-nav-item clear-button" },
                 React.createElement("span", { className: "quick-nav-item-label" }, item.label)));
