@@ -215,8 +215,7 @@ const QuickNav = () => {
             }, {
                 id: 2,
                 label: "Add+"
-                url: "https://www.raket.ph/echozoneph" 
-            }, {
+                  }, {
                 id: 3,
                 label: "Coming soon"
             }, {
